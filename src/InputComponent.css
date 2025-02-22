@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+.input-container {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+  width: 50%;
+  margin: auto;
+  backdrop-filter: blur(10px);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(255, 0, 255, 0.8);
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.custom-input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+    background: rgba(255, 255, 255, 0.9); /* Adjusted for better visibility */
+    color: black; /* Now visible */
+    width: 40%;
+  }
+  
+
+.custom-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.custom-input:focus {
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #ff007f, #7f00ff);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 0, 255, 1);
+}
+
+.output-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+  }
+  
+  .toggle-btn {
+    background: linear-gradient(135deg, #00c3ff, #7f00ff);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .toggle-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 1);
+  }
+  
+  .display-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 255, 255, 0.8);
+  }
+  
